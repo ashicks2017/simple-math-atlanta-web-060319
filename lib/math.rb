@@ -1,7 +1,11 @@
-def addition(num1, num2)
+def addition(num1 =5, num2 =4)
+  addition = num1 + num2
+  return addition
 end
 
-def subtraction(num1, num2)
+def subtraction(num1 =10, num2 = 5)
+  subtraction = num1 - num2
+  return subtraction
 end
 
 def division(num1, num2)
